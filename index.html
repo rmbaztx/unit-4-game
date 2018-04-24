@@ -1,0 +1,46 @@
+<!-- Comment:  -->
+<!DOCTYPE html>
+<html lang='(en-us)'>
+<head>
+<meta charset='UTF-8'>
+<title>CrystalsCollector</title>
+<link rel='stylesheet' type='text/css' href='assets/css/reset.css'>
+<link rel='stylesheet' type='text/css' href='assets/css/style.css'>
+
+
+</head>
+<body>
+<h1>CrystalsCollector</h1>
+<!-- Should I use <p> or <textarea>?-->
+<p class=instructions>
+    Instructions</p>
+    <p class="instructions">You will be given a random number at the start of the 
+    game.</p>
+    <p class="instructions">There are four crystals below. By clicking on a crystal you 
+    will add a specific amount of points to your total score.</p>
+    <p class="instructions">You win the game by matching your total score to the 
+    random number. You lose the game if your total score 
+    goes above the random number.</p>
+    <p class="instructions">The value of each cystal is hidden from you until you 
+    click on it.</p>
+    <p class="instructions">Each time when the game starts, the game will change
+    the values of each crystal.</p>  
+<p id=randomNumber>"39"</p>
+<h2 id=wins>Wins: </h2>
+<h2 id=losses>Losses: </h2>
+<div id="crystals">
+        <img id="imageCrystal1" class="crystal-image" src="assets/images/crystal-1.png" alt="C1">
+        <img id="imageCrystal2" class="crystal-image" src="assets/images/crystal-2.png" alt="C2">
+        <img id="imageCrystal3" class="crystal-image" src="assets/images/crystal-3.png" alt="C3">
+        <img id="imageCrystal4" class="crystal-image" src="assets/images/crystal-4.png" alt="C4">
+</div>
+
+<p>Your total score is:</p>
+<p id=currentScore>" 12"></p>
+
+<script type='text/javascript'></script>
+<!-- Added link to the jQuery Library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="../unit-4-game/assets/javascript/game.js"></script>
+</body>
+</html>

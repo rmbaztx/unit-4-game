@@ -1,0 +1,67 @@
+/* use this file to style the following:
+CrystalsCollector Title
+Instructions box (class instructions)
+RandomNumber box (id randomNumber)
+NumberWins (id wins)
+NumberLosses (id losses)
+Crystals
+"Your total score is ... box or heading" (id 
+Total score box (id currentScore)
+Background
+*/
+h1 {
+    height:80px;
+    color:white;
+    background-color:orange;
+    max-width:260px;
+    margin-top:40px;
+    padding-top:40px;
+}
+.instructions {
+    font-size:24px;
+    background-color:beige;
+    color:green;
+    max-width:600px;
+}
+#randomNumber {
+    background-color:lightgreen;
+    color:brown;
+    height:90px;
+    font-size:36px;
+    width:240px;
+    float:left;
+}
+h2 {
+    background-color:lightcyan;
+    width:80px;
+    font-size:16px;
+    clear:both;
+}
+#currentScore {
+    background-color:green;
+    color:white;
+    width:240px;
+    height:90px;
+}
+#crystals {
+    height:200px;
+    /* width:200px; */
+}
+/* #imageCrystal1 {
+    width:200px;
+    height:200px;
+}
+*/
+.crystal-image {
+    height:50%;
+    /* width:50%; */
+    float:left;
+}
+p {
+    margin:0;
+    padding:0;
+}
+ button {
+     width:100px;
+     float:left;
+ }
